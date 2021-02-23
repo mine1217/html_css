@@ -15,6 +15,24 @@
     /* 背景色red */
 }
 
+.header-top {
+    width: 100%;
+    /* 横幅いっぱい */
+    height: 70px;
+    /* 高さ70px */
+    background-color: hotpink;
+    /* 背景色hotpink */
+}
+
+.header-bottom {
+    width: 100%;
+    /* 横幅いっぱい */
+    height: 50px;
+    /* 高さ50px */
+    background-color: pink;
+    /* 背景色pink */
+}
+
 .main-visual {
     width: 100%;
     /* 横幅いっぱい */
@@ -24,6 +42,15 @@
     /* 背景色orange */
 }
 
+.main-visual-content {
+    width: 350px;
+    /* 横幅350px */
+    height: 300px;
+    /* 親の高さに揃える */
+    background-color: gold;
+    /* 背景色gold */
+}
+
 .main {
     width: 100%;
     /* 横幅いっぱい */
@@ -31,6 +58,24 @@
     /* 高さ1400px（多めに設定） */
     background-color: green;
     /* 背景色green */
+}
+
+.blog {
+    width: 600px;
+    /* 横幅600px */
+    height: 600px;
+    /* 高さ600px */
+    background-color: limegreen;
+    /* 背景色limegreen */
+}
+
+.sidebar {
+    width: 240px;
+    /* 横幅240px */
+    height: 600px;
+    /* 高さ600px */
+    background-color: palegreen;
+    /* 背景色palegreen */
 }
 
 .footer {
