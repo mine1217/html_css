@@ -1,0 +1,17 @@
+.box1 {
+    /*
+    大きさの指定方法
+    px そのまま　ピクセル
+    % 画面幅や親要素に対して相対的に指定できる
+    auto デフォ値　widthは親要素と同じ横幅　親要素が無い時は画面一杯 heightは子要素と同じ高さ　子要素が無い時は0
+    */
+    width: 300px;
+    height: 300px;
+    background-color: red;
+}
+
+.box2 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
