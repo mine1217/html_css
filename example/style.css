@@ -1,0 +1,22 @@
+/*
+CSSの書き方
+セレクタ {
+  プロパティ: 値;
+}
+
+#id
+
+.class
+*/
+
+p {
+    color: black;
+}
+
+#word-red {
+    color: red;
+}
+
+.green-word {
+    color: green;
+}
