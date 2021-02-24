@@ -9,7 +9,7 @@
     height: 300px;
     background-color: red;
     margin: 30px; /*外側余白*/
-    padding: 30px; /*内側余白*/
+    padding: 30px; /*内側余白 設定した高さ横幅にかさましされる*/
     /*
     上下左右　パラメタの数で変わる
     margin(padding): 1px ;  値1つは、上下左右 
