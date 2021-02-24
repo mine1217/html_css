@@ -11,6 +11,23 @@ header {
     /* 横幅90% */
     padding: 15px 0;
     margin: 0 auto;
+    text-align: center;
+}
+
+.nav-list {
+    text-align: center;
+    padding: 10px 0;
+    margin: 0 auto;
+}
+
+.nav-list-item {
+    list-style: none;
+    display: inline-block; /* block:縦並び/縦横大きさ設定可 inline:横並び/大きさ設定不可 inline-block:横並び/大きさ設定可*/
+    margin: 0 20px;
+}
+
+header .heading {
+    font-size: 32px;
 }
 
 .main-visual {
