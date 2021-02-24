@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: #6c6b6b;
 }
 
 header {
@@ -14,6 +15,10 @@ header {
     text-align: center;
 }
 
+a {
+    text-decoration: none;
+}
+
 .nav-list {
     text-align: center;
     padding: 10px 0;
@@ -22,7 +27,8 @@ header {
 
 .nav-list-item {
     list-style: none;
-    display: inline-block; /* block:縦並び/縦横大きさ設定可 inline:横並び/大きさ設定不可 inline-block:横並び/大きさ設定可*/
+    display: inline-block;
+    /* block:縦並び/縦横大きさ設定可 inline:横並び/大きさ設定不可 inline-block:横並び/大きさ設定可*/
     margin: 0 20px;
 }
 
@@ -71,7 +77,12 @@ header .heading {
 
 footer {
     width: 100%;
-    /* 横幅いっぱい */
     height: 120px;
-    /* 高さ120px */
-}
+    text-align: center;
+    line-height: 120px;
+    background-color: #848282;
+  }
+  
+  .footer-text {
+    color: #fff;
+  }
