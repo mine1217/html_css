@@ -1,0 +1,22 @@
+div {
+    width: 100%;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+}
+
+#cherry {
+    background-image: url(img/box1.jpg);
+}
+
+#beach {
+    background-image: url(img/box2.jpg);
+}
+
+#maple {
+    background-image: url(img/box3.jpg);
+}
+
+#snow {
+    background-image: url(img/box4.jpg);
+}
