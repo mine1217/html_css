@@ -98,6 +98,46 @@ main {
     line-height: 0.6;
 }
 
+.blog-box {
+    padding-top: 50px;
+}
+
+.blog-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #f7f7f7;
+}
+
+.blog-image {
+    height: 180px;
+}
+
+.blog-text {
+    padding-top: 25px;
+    padding-left: 30px;
+}
+
+.blog-text-heading {
+    padding-bottom: 15px;
+}
+
+.blog-date {
+    display: inline-block;
+    font-size: 12px;
+}
+
+.category {
+    display: inline-block;
+    padding: 5px 8px;
+    background-color: #acabab;
+    border-radius: 3px; /*領域自体の角を丸くする　50%で円になる*/
+    color: #fff;
+    font-size: 11px;
+}
+
 .sidebar {
     width: 230px;
 }
