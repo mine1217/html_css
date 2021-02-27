@@ -74,7 +74,7 @@ header .heading {
 }
 
 main {
-    width: 840px;
+    width: 800px;
     /* 横幅840px */
     display: flex;
     /* Flexboxの利用 */
@@ -139,6 +139,22 @@ main {
     font-size: 11px;
 }
 
+.pagination {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.pagination p {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+    color: #fff;
+    background-color: #acabab;
+    border-radius: 3px;
+    line-height: 30px;
+}
+
 .sidebar {
     width: 230px;
 }
@@ -178,7 +194,8 @@ main {
     margin-bottom: 10px;
 }
 
-.instagram-box:nth-child(odd) { /*奇数番目の子要素だけ*/
+.instagram-box:nth-child(odd) {
+    /*奇数番目の子要素だけ*/
     margin-right: 10px;
 }
 
