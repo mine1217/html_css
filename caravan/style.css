@@ -203,6 +203,7 @@ main {
 .instagram .sidebar-contents {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .instagram-box {
@@ -252,4 +253,63 @@ footer {
 
 .footer-text {
     color: #fff;
+}
+
+/*レスポンシブ対応*/
+@media screen and (max-width: 425px) {
+    header{
+        width: 100%;
+        display: block;
+    }
+
+    .nav-list-item {
+        display: block;
+        margin: 5px auto;
+        font-size: larger;
+    }
+
+    .social {
+        display: none;
+    }
+    
+    main {
+        width: 100%;
+        display: block;
+    }
+
+    .main-visual-content {
+        width: 100%;
+        font-size: larger;
+    }
+
+    .category {
+        display: none;
+    }
+
+    .blog {
+        width: 100%;
+    }
+
+    .blog-box, .sidebar-contents {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .blog-image {
+        width: 50%;
+    }
+
+    .sidebar {
+        margin-top: 50px;
+        width: 100%;
+    }
+
+    .instagram-box {
+        width: 48%;
+        height: 150px;
+    }
+
+    .instagram-box:nth-child(odd) {
+        margin-right: auto;
+    }
 }
